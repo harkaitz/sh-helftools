@@ -10,6 +10,13 @@ find-elf-files
     
     Print a list of elf files inside the specified directories.
 
+gettext-copy
+
+    Usage: gettext-copy [-o OPREFIX] [-i IPREFIX] PACKAGES...
+    
+    Search gettext(1) localization files ".mo" and list them. With -o
+    instead of listing the files will be copied to another prefix.
+
 readelf-list-dependencies
 
     Usage: readelf-list-dependencies [OPTS] ELF-FILES ...
