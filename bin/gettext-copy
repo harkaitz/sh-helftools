@@ -37,7 +37,7 @@ gettext_copy() {
     while getopts "o:i:" optopt; do
         case $optopt in
             o)  o="${OPTARG}";;
-            i)  i_l="${i_l} ${OPTARG}";;
+            i)  i_l="${i_l} ${OPTARG}/share/locale";;
             \?) return 1;;
         esac
     done
